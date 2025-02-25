@@ -1,0 +1,6 @@
+.git
+Dockerfile
+*.md
+.github
+design
+kubernetes

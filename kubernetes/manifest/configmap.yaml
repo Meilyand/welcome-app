@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: welcome-app-configmap
+  namespace: default
+  labels:
+    app: welcome-app
+data:
+  APP_PORT: "5000"
+  LOG_LEVEL: "INFO"
